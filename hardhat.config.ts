@@ -41,6 +41,10 @@ export default {
     polygon: {
       url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
+    gw_testnet_v1: {
+      url: `https://godwoken-testnet-web3-v1-rpc.ckbapp.dev`,
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
   etherscan: {
     // Your API key for Etherscan
